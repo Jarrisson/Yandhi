@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    
+    <title>Leaks: Yandhi</title>
+</head>
+<body onclick="playAudio()">
+    <header>
+        <audio id="audio" loop>
+            <source src="audio/Hurricane.mp3" type="audio/mp3">
+        </audio>
+        <nav>
+            <h1>Yandhi 9 29 18</h1>
+            <ul class="nav-bar">
+                    <li><a href="#inicio">Inicio</a></li>
+                    <li><a href="#contexto">Contexto</a></li>
+                    <li><a href="#Tracklist">Video</a></li>
+                    <li><a href="#Galeria">Galeria</a></li>
+                    
+                </ul>
+        </nav>
+    </header>
+    <main>
+        <section id="inicio">
+            <div class="MainContainer">
+                <img  class="YandhiCover" src="assets/Yandhi.png" alt="CoverConcept">
+                <div class="YandhiTitle">
+                    <h1>Yandhi</h1>
+                    <h2>Everybody wanted Yandhi Then Jesus Christ did the laundry</h2>
+                </div>
+            </div>
+        </section>
+        <hr>
+        <section id="contexto">
+            <div class="card-container">
+                <div class="text">
+                    <h1>Contexto</h1>
+                    <p>Yandhi, el caso de un supuesto 'Album incompleto' del rapero YE, es conocido, amado y sobre todo ESPERADO!!!(Publicalo ya hombre!!) debido a que el propio YE habia dicho que estaba listo para publicar un 29 de Septiembre del 2018, pero ya pasando dos dias decide cancelarlo, debido a que queria ahora cambiar el tema del album por algo mas religioso, haciendo que unos temas fueran reciclados para su nuevo album 'Jesus Is King'. 
+                    </p>
+                    </p>
+                </div>
+                <div class="text">
+                    <h1>Detalles</h1>
+                    <p>
+                        El nombre 'Yandhi' proviene de la mitologia griega, que quiere decir 'Diosa De La Luz' y en mi opinion el album representa esto, Luz, sus canciones dan unas vibras agudas como si un rayo de luz estuviera sobre nosotros dandonos calor y valor.
+                        Es por eso su portada del album, un disco que tiene un efecto de reflejos debido a los rayos de luz, es como si Dios iluminara el album con su poder divino, La bipolaridad de Ye y su acercamiento a Dios hizo que cambiara el concepto de Yandhi, de ser un Dios a quien deben adorar ahora, a 'Dios es uno solo y el es quien salvo mi alma'  
+                    </p>
+                </div>
+            </div>
+        </section>
+        <hr>
+        <section id="Tracklist">
+            <div class="main-video">
+                <h1>Primer Anucio Del Album</h1>
+                <video src="audio/y2mate.com - Kanye west  Yandhi_360p.mp4" autoplay muted loop></video>
+                <h1>9 - 29 - 18</h1>
+                <P>Video en el que se daba la fecha de salida del album, ademas de un Demo del tema 'Hurricane'</P>
+            </div>
+        </section>
+        <section id="Galeria">
+            <div class="ful-img" id="fullImgBox">
+
+                <img id="fulling" src="assets/Yandhi.png" alt="">
+                <span onclick="closeImg()">X</span>
+            </div>
+            <h1> <span>Yandhi y Otros Proyectos</span><h1>
+            <div class="img-gallery">
+                <img src="assets/Primera.jpg"onclick="openFull(this.src)" alt="">
+                <img src="assets/Yandhi.png" onclick="openFull(this.src)" alt="">
+                <img src="assets/JIK.png"   onclick="openFull(this.src)" alt="">
+                <img src="assets/donda.jpg" onclick="openFull(this.src)" alt="">
+                <img src="assets/TGFTD.png" onclick="openFull(this.src)" alt="">
+                <img src="assets/turbo.jpg" onclick="openFull(this.src)" alt="">
+                <img src="assets/GAJ.png" onclick="openFull(this.src)" alt="">
+                <img src="assets/Sohelpmego.png" onclick="openFull(this.src)" alt="">
+            </div>
+        </section>
+        <script src="index.js"></script>
+    </main>
+    <footer>
+        <p>&copyBit</p>
+        <p>Jarrisson Numpaque Jordan</p>
+    </footer>
+</body>
+</html>
